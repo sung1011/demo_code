@@ -1,28 +1,27 @@
 package main
 
 import (
+	"bufio"
 	"fmt"
-	"log"
-	"net/http"
+	"strings"
 )
 
-func sayhelloName(w http.ResponseWriter, r *http.Request) {
-	fmt.Println(r.Method)
-	fmt.Println(r.URL)
-	fmt.Println(r.Proto)
-	// fmt.Println(r.Header)
-	for k, v := range r.Header {
-		fmt.Println("k:", k, "v:", v)
-	}
-	fmt.Println(r.Body)
-	fmt.Println(r.Host)
-
-}
-
 func main() {
-	http.HandleFunc("/", sayhelloName)
-	if err := http.ListenAndServe(":9090", nil); err != nil {
-		log.Fatal("ListenAndServe: ", err)
-	}
+	s := strings.NewReader("ABCDEFG")
+	br := bufio.NewReader(s)
 
+	c, _ := br.ReadByte()
+	fmt.Printf("%c\n", c)
+	fmt.Println(br.Buffered()) //6
+	// A
+
+	c, _ = br.ReadByte()
+	fmt.Printf("%c\n", c)
+	fmt.Println(br.Buffered()) //5
+	// B
+
+	br.UnreadByte()
+	c, _ = br.ReadByte()
+	fmt.Printf("%c\n", c)
+	// B
 }

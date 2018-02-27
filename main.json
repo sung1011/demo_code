@@ -1,0 +1,321 @@
+RESPONSE: [
+    {
+        "id": 2000112,
+        "result": {
+            "d": {
+                "user": {
+                    "activity": [],
+                    "shop": [],
+                    "vip": {
+                        "lv": 14,
+                        "exp": 11070,
+                        "month": {
+                            "month30": {
+                                "expire_t": 1520611200,
+                                "_t": 1518540305,
+                                "times": 7
+                            }
+                        },
+                        "min_lv": 13,
+                        "lvUp_t": 1518369418,
+                        "ispay": 1,
+                        "payment": {
+                            "pay648": {
+                                "total": 21,
+                                "_lt": 1518339849,
+                                "_ft": 1518086299
+                            },
+                            "pay6": {
+                                "total": 1,
+                                "_lt": 1518086299,
+                                "_ft": 1518086299
+                            },
+                            "pay30": {
+                                "total": 2,
+                                "_lt": 1518369418,
+                                "_ft": 1518086299
+                            },
+                            "pay198": {
+                                "total": 4,
+                                "_lt": 1518369418,
+                                "_ft": 1518086299
+                            },
+                            "pay328": {
+                                "total": 4,
+                                "_lt": 1518571237,
+                                "_ft": 1518086299
+                            },
+                            "pay98": {
+                                "total": 3,
+                                "_lt": 1518369418,
+                                "_ft": 1518086299
+                            }
+                        }
+                    },
+                    "recover": {
+                        "stamina": {
+                            "val": 100,
+                            "last_t": 1518642027
+                        },
+                        "energy": {
+                            "val": 30,
+                            "last_t": 1518642027
+                        }
+                    },
+                    "martial": {
+                        "adytum": [],
+                        "land": {
+                            "land_1002": {
+                                "tag": "land"
+                            },
+                            "land_1003": {
+                                "tag": "land"
+                            },
+                            "land_1004": {
+                                "tag": "land"
+                            },
+                            "land_1005": {
+                                "tag": "land"
+                            },
+                            "land_1006": {
+                                "tag": "land"
+                            },
+                            "land_1007": {
+                                "tag": "land"
+                            },
+                            "land_1008": {
+                                "tag": "land"
+                            },
+                            "land_1009": {
+                                "tag": "land"
+                            },
+                            "land_1010": {
+                                "tag": "land"
+                            },
+                            "land_1011": {
+                                "tag": "land"
+                            },
+                            "land_1012": {
+                                "tag": "land"
+                            },
+                            "land_1013": {
+                                "tag": "land"
+                            }
+                        },
+                        "landspe": {
+                            "landspe_1001": {
+                                "tag": "landspe"
+                            }
+                        },
+                        "relic": [],
+                        "spy": {
+                            "expire_t": 1518710400,
+                            "total": 2,
+                            "lv": 1,
+                            "team": {
+                                "p1": {
+                                    "index": 3,
+                                    "npc": "armyspy003",
+                                    "pos": 3
+                                },
+                                "p2": {
+                                    "index": 1,
+                                    "npc": "armyspy001",
+                                    "pos": 10
+                                }
+                            }
+                        }
+                    }
+                },
+                "league": {
+                    "_id": "15_l_40012",
+                    "_it": 1518088745,
+                    "lv": 4,
+                    "exp": 228630,
+                    "avatar": "2",
+                    "coin": 879400,
+                    "name": "\u8dea\u4e0b\u53eb\u54e5",
+                    "notice": "\u6bcf\u4e2a\u4eba\u90fd\u5fc5\u987b\u52a0\u5fae\u4fe1\u7fa4\u6bcf\u5929\u798f\u5229\u6d3b\u52a8\u653b\u7565\u73a9\u6cd5\u7fa4\u91cc\u90fd\u4f1a\u5206\u4eab18206908080\u6211\u5fae\u4fe1",
+                    "manifesto": "\u4e00\u76f4\u73a9\u7684\u6765\u52a0\u5fae\u4fe1\u8fdb\u7fa4\u4e00\u8d77\u63a2\u8ba8\u6e38\u620f\u4e00\u8d77\u4ea4\u6d41",
+                    "type": 2,
+                    "powervalue": 490000,
+                    "chief": "103489_40012",
+                    "technology": {
+                        "treasure": 3,
+                        "shopDiscount": 3,
+                        "today": {
+                            "expire_t": 1518278400,
+                            "shopLevel": 1
+                        },
+                        "shopLevel": 2,
+                        "worldbossDrop": 2,
+                        "fubenAttack": 1,
+                        "fubenDrop": 2,
+                        "badgeNum": 1
+                    },
+                    "active": {
+                        "today": {
+                            "ql": 85,
+                            "bh": 230,
+                            "zq": 45,
+                            "xw": 10
+                        },
+                        "week": {
+                            "ql": 8830,
+                            "bh": 9625,
+                            "zq": 8845,
+                            "xw": 8770
+                        },
+                        "calcu_t": 1518710400,
+                        "yesterday": 11640
+                    },
+                    "task": {
+                        "lv": 4,
+                        "progress": 0,
+                        "expire_t": 1518710400,
+                        "ql": {
+                            "tag": "leaguet01012",
+                            "total": 0
+                        },
+                        "bh": {
+                            "tag": "leaguet01009",
+                            "total": 17
+                        },
+                        "zq": {
+                            "tag": "leaguet01009",
+                            "total": 0
+                        },
+                        "xw": {
+                            "tag": "leaguet01010",
+                            "total": 0
+                        }
+                    },
+                    "chivalry": {
+                        "ql": 0,
+                        "bh": 2520,
+                        "zq": 0,
+                        "xw": 0,
+                        "lv": 4,
+                        "expire_t": 1518710400
+                    },
+                    "couplets": [],
+                    "badge": {
+                        "guard": {
+                            "bh_1": {
+                                "guarder": "255867_40012"
+                            },
+                            "ql_1": {
+                                "tag": "lb10201",
+                                "guarder": "236192_40012"
+                            },
+                            "zq_1": {
+                                "guarder": "6599_40012"
+                            },
+                            "xw_1": {
+                                "guarder": "247792_40012"
+                            },
+                            "ql_2": {
+                                "guarder": "211710_40012",
+                                "tag": "lb10601"
+                            }
+                        },
+                        "list": {
+                            "lb10201": "ql_1",
+                            "lb10601": "ql_2"
+                        }
+                    },
+                    "member": {
+                        "6599_40012": {
+                            "join_t": 1518224338,
+                            "tong": "zq",
+                            "duty_t": 1518262846,
+                            "duty": "tongleader",
+                            "_at": 1518641606,
+                            "active": {
+                                "today": 245,
+                                "week": 735,
+                                "calcu_t": 1518624000
+                            },
+                            "task": {
+                                "expire_t": 1518710400,
+                                "tong": "zq",
+                                "total": 0
+                            },
+                            "cultaward": {
+                                "expire_t": 1518624000,
+                                "tongaward01": 1518540614,
+                                "leagueaward1": 1518540614,
+                                "tongaward02": 1518540615,
+                                "leagueaward2": 1518540616,
+                                "tongaward03": 1518540616,
+                                "leagueaward3": 1518540617,
+                                "tongaward04": 1518571316,
+                                "leagueaward4": 1518571317,
+                                "tongaward05": 1518571318,
+                                "leagueaward5": 1518571319,
+                                "tongaward06": 1518571320,
+                                "leagueaward6": 1518571321,
+                                "tongaward07": 1518571321,
+                                "leagueaward7": 1518571322,
+                                "tongaward08": 1518571323,
+                                "leagueaward8": 1518571323,
+                                "tongaward09": 1518571324,
+                                "leagueaward9": 1518571325,
+                                "tongaward10": 1518571325,
+                                "leagueaward10": 1518571326,
+                                "tongaward11": 1518571327,
+                                "leagueaward11": 1518571328,
+                                "tongaward12": 1518571328,
+                                "leagueaward12": 1518571329,
+                                "tongaward13": 1518571330,
+                                "leagueaward13": 1518571331,
+                                "tongaward14": 1518571331,
+                                "leagueaward14": 1518572730,
+                                "tongaward15": 1518574336,
+                                "leagueaward15": 1518574337,
+                                "leagueaward16": 1518577546,
+                                "tongaward16": 1518584900,
+                                "tongaward17": 1518584901,
+                                "leagueaward17": 1518584901,
+                                "tongaward18": 1518584902,
+                                "leagueaward18": 1518584903,
+                                "tongaward19": 1518584903,
+                                "leagueaward19": 1518584904,
+                                "tongaward20": 1518621279,
+                                "leagueaward20": 1518621280,
+                                "tongaward21": 1518621281,
+                                "leagueaward21": 1518621281,
+                                "tongaward22": 1518621282,
+                                "leagueaward22": 1518621283,
+                                "tongaward23": 1518621283,
+                                "leagueaward23": 1518621284,
+                                "tongaward24": 1518621285
+                            },
+                            "today": {
+                                "expire_t": 1518710400
+                            },
+                            "guard": "zq_1"
+                        }
+                    },
+                    "fuben": [],
+                    "auction": {
+                        "fuben": [],
+                        "worldboss": []
+                    },
+                    "rp_new": 1518624850,
+                    "treasure": []
+                }
+            },
+            "data": {
+                "temp": {
+                    "paybackofftime": 20180226,
+                    "paybacklasttime": 20180326
+                }
+            }
+        },
+        "_t": 1518642027,
+        "_ct": 83,
+        "opCode": 199999,
+        "uniqueRequestId": "dzm2_6599_40012_1518642027_13_2000112"
+    }
+]
