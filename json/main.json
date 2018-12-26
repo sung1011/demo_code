@@ -1,0 +1,35 @@
+{
+    "ver": "dev",
+    "method": "User.get",
+    "params": {
+        "lv": 1,
+        "client_pv": 0,
+        "device_type": "x86_64",
+        "sec": "t2",
+        "token": "4be892e9e407d44acf99a9e2dcc8f969",
+        "base_version": "1.0.0",
+        "serviceId": "1000053831000800000",
+        "serviceCode": -5,
+        "channelId": "3100080031000800",
+        "deviceId": "5BF21546-C040-43D0-AAEB-B1CBFE253804",
+        "os_version": "11.2",
+        "device_id": "5BF21546-C040-43D0-AAEB-B1CBFE253804",
+        "sdk_source": "Dev",
+        "debugCfg": true
+    },
+    "sdk_source": "Dev",
+    "rid": "8_t2",
+    "opCode": 100001,
+    "id": 2000002,
+    "uniqueRequestId": "dzm2_8_t2_1524897991_3_2000002",
+    "_SESSION": {
+        "rid": "8_t2",
+        "sec": "t2",
+        "batinspect": true,
+        "debugCfg": false,
+        "clientIp": "172.16.74.73",
+        "pid": "0800010000000000000000000000000002136083"
+    },
+    "controller": "User",
+    "action": "get"
+}
