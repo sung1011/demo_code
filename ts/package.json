@@ -21,6 +21,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "bson": "^4.7.0",
     "webpack-merge": "^5.8.0"
   }
 }
