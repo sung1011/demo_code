@@ -3,16 +3,17 @@
 # 报错即停止
 set -e
 # 遇到不存在的变量即停止
-set -u
+# set -u
 
 function gitflow
 {
-    TAG=$1
+    echo $1
     # 检测参数是否存在
-    if [ ! -n "$TAG" ]; then
+    if [ ! -n "$1" ]; then
         echo "\033[1;31m" "请输入tag号作为参数" "\033[0m"
         exit 1
     fi
+    TAG=$1
 
     set -x
     git checkout develop
@@ -28,7 +29,7 @@ function gitflow
     set +x
 }
 
-gitflow
+gitflow $1
 
 
 # git flow 模式打tag
