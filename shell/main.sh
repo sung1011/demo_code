@@ -31,5 +31,6 @@ function gitflow
 
 gitflow $1
 echo "\033[1;32m" "请手动执行:" "\033[0m"
-echo "\033[1;32m" "  git push origin master --tags" "\033[0m"
+echo "\033[1;32m" "  git push origin tag $1" "\033[0m"
+echo "\033[1;32m" "  git push origin master" "\033[0m"
 echo "\033[1;32m" "  git push origin develop" "\033[0m"
