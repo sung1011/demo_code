@@ -26,8 +26,6 @@ function gitflow
         git tag -a $TAG -m "release/$TAG"
 
         git branch -d release/$TAG
-
-    set +x
 }
 
 gitflow $1
